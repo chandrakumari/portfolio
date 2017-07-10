@@ -7,6 +7,11 @@
             background-color: #cccccc;
          }
          <head>
+         <script>
+         function myFunction(){
+                  document.getElementById("demo").innerHTML = "I love San Francisco!!";
+         }
+         </script>
 <title>Chandra</title>
 </head>
       </style>
@@ -16,7 +21,7 @@
 </h1>
 <p id="demo">This is a page about me.</p>
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "I love San Francisco!!"'>Click Me to reveal more information!</button>
+<button type="button" onclick="myFunction()">Click Me to reveal more information!</button>
          </center> </font>
 
 </body>
